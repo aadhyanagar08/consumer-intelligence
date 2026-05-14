@@ -36,7 +36,7 @@ print(f"\nChurn rate: {customers['churned'].mean():.1%}")
 print(f"Churned: {customers['churned'].sum()} | Active: {(customers['churned']==0).sum()}")
 
 # ── Features & split ──────────────────────────────
-feature_cols = ['cluster', 'total_spend', 'num_orders', 'avg_order_value', 'days_since']
+feature_cols = ['cluster', 'total_spend', 'num_orders', 'avg_order_value']
 X = customers[feature_cols]
 y = customers['churned']
 
