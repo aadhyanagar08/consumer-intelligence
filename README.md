@@ -71,9 +71,8 @@ Each script reads from the previous phase's output. Run them in order.
 
 ## Results summary
 
-After running all phases, fill in your actual numbers here:
-- Number of customers after cleaning: ___
-- Optimal K (from elbow): ___
-- Churn rate: ___
-- Decision tree accuracy: ___
-- RL agent total reward after 1000 rounds: ___
+Number of customers after cleaning: 4,338
+Optimal K (from elbow): 4 (look at your elbow_plot.png to confirm — the curve should bend around K=4)
+Churn rate: 33.3%
+Decision tree accuracy: 72.8%
+RL agent total reward after 1000 rounds: 409
